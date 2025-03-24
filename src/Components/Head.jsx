@@ -11,9 +11,9 @@ const Head = () => {
         </div>
         <div className='col-span-10 pl-74 '>
             <input  type='text' placeholder='Search' className='bg-slate-100 rounded-l-full px-60 border-b-slate-500 border-1 p-2 '></input>
-            <button className='rounded-r-full border-1  p-2'>🔍</button>
+            <button className='rounded-r-full border-1  py-2 px-5'>🔍</button>
         </div>
-        <div className='pt-2'>
+        <div className='pt-2 col-span-1'>
             <img className='w-10 h-8' src='https://static.vecteezy.com/system/resources/previews/019/879/186/original/user-icon-on-transparent-background-free-png.png'>
             </img>
         </div>

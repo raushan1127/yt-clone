@@ -1,14 +1,17 @@
 import React from 'react'
 import Head from './Components/Head'
 import Body from './Components/Body'
-
+import { Provider} from 'react-redux'
+import store from '../utils/store'
 
 const App = () => {
   return (
-    <div className='bg-blue-50'>
+    <Provider store = {store} >
+    <div className=''>
       <Head />
       <Body />
     </div>
+    </Provider>
   )
 }
 
