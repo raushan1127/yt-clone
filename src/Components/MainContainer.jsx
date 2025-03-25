@@ -1,9 +1,10 @@
 import React from 'react'
+import ButtonList from './ButtonList'
 
 const MainContainer = () => {
   return (
-    <div>
-        
+    <div className='mx-4 my-2'>
+        <ButtonList />
     </div>
   )
 }
